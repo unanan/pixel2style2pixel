@@ -17,9 +17,6 @@ from datasets import augmentations
 from utils.common import tensor2im, log_input_image
 from models.psp import pSp
 
-%load_ext autoreload
-%autoreload 2
-
 
 experiment_type = "ffhq_encode"
 

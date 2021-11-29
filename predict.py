@@ -16,7 +16,7 @@ from datasets import augmentations
 from utils.common import tensor2im, log_input_image
 from models.psp import pSp
 import dlib
-from scripts.align_all_parallel import align_face
+from pspscripts.align_all_parallel import align_face
 
 
 class Predictor(cog.Predictor):

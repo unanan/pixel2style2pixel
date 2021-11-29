@@ -22,7 +22,7 @@ experiment_type = "ffhq_encode"
 EXPERIMENT_DATA_ARGS = {
     "ffhq_encode": {
         "model_path": "pretrained_models/psp_ffhq_encode.pt",
-        "image_path": "notebooks/images/input_img.jpg",
+        "image_path": "test.png",
         "transform": transforms.Compose([
             transforms.Resize((256, 256)),
             transforms.ToTensor(),

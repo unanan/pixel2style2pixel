@@ -159,3 +159,4 @@ else:
                           np.array(output_image.resize((256, 256)))], axis=1)
 
 res_image = Image.fromarray(res)
+res_image.save("result.png")

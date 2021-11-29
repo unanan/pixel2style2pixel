@@ -1,6 +1,5 @@
 import os
-CODE_DIR = 'pixel2style2pixel'
-os.chdir(f'./{CODE_DIR}')
+
 from argparse import Namespace
 import time
 import sys

@@ -17,7 +17,7 @@ from utils.common import tensor2im, log_input_image
 from models.psp import pSp
 
 
-experiment_type = "ffhq_encode"
+experiment_type = "celebs_seg_to_face" #"ffhq_encode"
 
 EXPERIMENT_DATA_ARGS = {
     "ffhq_encode": {

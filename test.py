@@ -45,7 +45,7 @@ EXPERIMENT_DATA_ARGS = {
     },
     "celebs_seg_to_face": {
         "model_path": "pretrained_models/psp_celebs_seg_to_face.pt",
-        "image_path": "notebooks/images/input_mask.png",
+        "image_path": "masks/mask.png",
         "transform": transforms.Compose([
             transforms.Resize((256, 256)),
             augmentations.ToOneHot(n_classes=19),
